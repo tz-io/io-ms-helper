@@ -12,7 +12,7 @@
 
 (function () {
   "use strict";
-
+  console.log("begin");
   kviewer.events.on("records.show", (context) => {
     // URL パラメータをチェック
     const params = new URLSearchParams(location.search);
