@@ -55,7 +55,7 @@
         document.body.appendChild(msg);
 
         // 自動リダイレクト例（任意）
-        location.href = 'https://portal.example.com/';
+        location.href = 'https://www.google.com/';
       }
     })();
   });
