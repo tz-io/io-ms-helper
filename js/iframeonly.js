@@ -39,6 +39,8 @@
           const parentHost = window.top.location.hostname;
           // ③ ハッシュ化してホワイトリスト照合
           const hash = await sha256Hex(parentHost);
+          console.log(hash);
+          console.log(window.top.location.hostname);          
           isAllowed = ALLOWED_HASHES.includes(hash);
         }
       } catch (e) {
