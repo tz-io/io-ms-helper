@@ -59,7 +59,7 @@
         document.body.appendChild(msg);
 
         // 自動リダイレクト例（任意）
-        location.href = 'https://www.google.com/';
+        //location.href = 'https://www.google.com/';
       }
     })();
   });
