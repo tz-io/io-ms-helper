@@ -26,7 +26,7 @@
 
   // 完了画面が表示されたときにリダイレクト
   formBridge.events.on('finish.show', function (context) {
-    parent.location.href = redirectTo;
+    location.href = redirectTo;
   });
 
 })();
