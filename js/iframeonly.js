@@ -56,8 +56,7 @@
           'display:flex;justify-content:center;align-items:center;height:100vh;font-family:sans-serif;text-align:center;';
         msg.innerHTML =
           '<h2 style="font-size:1.4rem;">このページは指定ポータルからのみアクセスできます。</h2>'+
-          window.top.location.hostname+'  :  '
-          hash+'  :  ';
+          window.top.location.hostname+'  :  ';
         document.body.appendChild(msg);
 
         // 自動リダイレクト例（任意）
